@@ -45,15 +45,15 @@ export default function QuestionForm() {
 
                             <div className="border-2 border-blue-300 p-4 rounded-md">
 
-                                <div className="flex justify-between">
-                                    <div>
+                                <div className="flex">
+                                    <div className="w-1/3">
 
                                     </div>
-                                    <div>
+                                    <div className="w-1/3 flex justify-center">
                                         <svg fill="#000000" className="w-4 h-4" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="Glyph" version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><path d="M16,13c-1.654,0-3,1.346-3,3s1.346,3,3,3s3-1.346,3-3S17.654,13,16,13z" id="XMLID_287_" /><path d="M6,13c-1.654,0-3,1.346-3,3s1.346,3,3,3s3-1.346,3-3S7.654,13,6,13z" id="XMLID_289_" /><path d="M26,13c-1.654,0-3,1.346-3,3s1.346,3,3,3s3-1.346,3-3S27.654,13,26,13z" id="XMLID_291_" /></svg>
                                     </div>
 
-                                    <div className="flex">
+                                    <div className="flex w-1/3 flex justify-end">
                                         <svg className="w-4 h-4 m-1" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width="48" height="48" fill="white" fill-opacity="0.01" />
                                             <path d="M13 30L25 18L37 30" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
